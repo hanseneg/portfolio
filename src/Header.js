@@ -5,11 +5,22 @@ export default function Header() {
         <div>
             <header>
                 <nav>
-                    <a href="#"> Home </a>
-                    <a href="#"> Articles </a>
-                    <a href="#"> Directory </a>
-                    <a href="#"> Events </a>
-                    <a href="#"> About Us</a>
+                    <div class="menu-icon">
+                        <i class="fa fa-bars fa-2x"></i>
+                    </div>
+                    <div class="logo">
+                        ETHAN HANSEN
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a class="hoverable" href="#">Home</a></li>
+                            <li><a class="hoverable" href="#">About</a></li>
+                            <li><a class="hoverable" href="#">Blog</a></li>
+                            <li><a class="hoverable" href="#">Contact</a></li>
+                            <li><a class="hoverable" href="#">Contact</a></li>
+                            <li><a class="hoverable" href="#">Contact</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </header>
         </div>
