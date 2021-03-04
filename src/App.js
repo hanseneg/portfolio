@@ -7,7 +7,6 @@ export default function App() {
     return (
         <div>
             <Header />
-            <h1>Ethan Hansen</h1>
             <Footer />
         </div>
     )
