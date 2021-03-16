@@ -22,6 +22,9 @@ export default function Header() {
                         </ul>
                     </div>
                 </nav>
+                <div>
+                    {/* <h1>Languages</h1> */}
+                </div>
             </header>
         </div>
     )
