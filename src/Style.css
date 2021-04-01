@@ -1,8 +1,5 @@
 body {
     color: rgb(45, 46, 46);
-    /* background-image: url(https://miro.medium.com/max/12164/0*22vFnZtZqhS4Apa8); */
-    /* background-image: url(https://i.redd.it/8u1039f6w0201.jpg); */
-    
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -11,17 +8,11 @@ body {
     padding-bottom: 40px;
 }
 
-
 html, body {
     margin: 0;
     padding: 0;
     width: 100%;
 }
-
-/* body {
-    font-family: "Helvetica Neue",sans-serif;
-    font-weight: lighter;
-} */
 
 header {
     width: 100%;
@@ -217,26 +208,6 @@ a:visited {
     padding-left: 100px;
     padding-right: 100px;
     font-size: 40px;
-    color: #fff;
+    color: rgb(45, 46, 46);
     text-align: center;
 }
-
-/* .fixed-header {
-    width: 100%;
-    position: fixed;
-    background: #333;
-    padding: 10px 0;
-    color: #fff;
-}
-.fixed-header {
-    top: 0;
-}
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-nava {
-    color: #fff;
-    padding: 7px 25px;
-    display: inline-block;
-} */

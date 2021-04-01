@@ -3,15 +3,15 @@ import './Style.css'
 import Header from './Header'
 import Site from './Site'
 import Work from './Work'
-import Contact from './Contact'
+import About from './About'
 
 export default function App() {
     return (
         <div>
             <Header />
+            <About />
             <Site />
             <Work />
-            <Contact />
         </div>
     )
 }
