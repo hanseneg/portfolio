@@ -1,10 +1,38 @@
-import React from 'react'
+import React, { useEffect, useState} from 'react'
+import { Link } from 'react-scroll'
+
 
 export default function Header() {
+    let listener = null
+    const [scrollState, setScrollState] = useState("top")
+  
+    useEffect(() => {
+      listener = document.addEventListener("scroll", e => {
+        var scrolled = document.scrollingElement.scrollTop
+        if (scrolled >= 20) {
+          if (scrollState !== "amir") {
+            setScrollState("amir")
+          }
+        } else {
+          if (scrollState !== "top") {
+            setScrollState("top")
+          }
+        }
+      })
+      return () => {
+        document.removeEventListener("scroll", listener)
+      }
+    }, [scrollState])
+  
+
     return (
         <div>
             <header>
-                <nav>
+                <nav style={{
+                    backgroundColor: scrollState === "top" ? "transparent" : "rgb(46, 45, 45)",
+                    transition: 1.3,
+                    position: "fixed"
+                    }}>
                     <div class="menu-icon">
                         <i class="fa fa-bars fa-2x"></i>
                     </div>
@@ -13,19 +41,18 @@ export default function Header() {
                     </div>
                     <div class="menu">
                         <ul>
-                            <li><a class="hoverable" href="#">Home</a></li>
-                            <li><a class="hoverable" href="#">About</a></li>
-                            <li><a class="hoverable" href="#">Projects</a></li>
-                            <li><a class="hoverable" href="#">Work</a></li>
-                            <li><a class="hoverable" href="#">Contact</a></li>
+                            <Link to='header' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" /* href="#" */>Home</a></li></Link>
+                            <Link to='about' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" /* href="#" */>About</a></li></Link>
+                            <Link to='site' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" /* href="#" */>Projects</a></li></Link>
+                            <Link to='contact' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" /* href="#" */>Links</a></li></Link>
+                            <Link to='contact' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" /* href="#" */>Contact</a></li></Link>
                         </ul>
                     </div>
                 </nav>
-                <div className='bio'>
-                    React Node.JS Express.JS Mongoose
+                <div className='languages'>
+                    React &nbsp;&nbsp;&nbsp; Node.JS &nbsp;&nbsp;&nbsp; Express.JS &nbsp;&nbsp;&nbsp; Mongoose
                 </div>
             </header>
-            
         </div>
     )
 }

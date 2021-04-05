@@ -87,11 +87,13 @@ nav ul li a {
 }
 
 li:hover, li:active, li:focus{
-    transform: translateY(-3px);
+    transform: translateY(-2px);
+    cursor: pointer;
   }
   li:hover:before, li:active:before, li:focus:before{
     opacity: 1;
-    transform: translateY(-3px);
+    transform: translateY(-2px);
+    cursor: pointer;
   }
 
 a:link {
@@ -142,38 +144,59 @@ a:visited {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
+    text-align: center;
   }
 .one {
     grid-column: 1;
     grid-row: 1;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 25px;
 }
 .two {
     grid-column: 2;
     grid-row: 1;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .three {
     grid-column: 1;
     grid-row: 2;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 25px;
 }
 .four {
     grid-column: 2;
     grid-row: 2;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .five {
     grid-column: 1;
     grid-row: 3;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 25px;
 }
 .six {
     grid-column: 2;
     grid-row: 3;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .seven {
     grid-column: 1;
     grid-row: 4;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 25px;
 }
 .eight {
     grid-column: 2;
     grid-row: 4;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .hr { 
@@ -188,26 +211,38 @@ a:visited {
 
 .work-icons {
     text-align: center;
-    padding-bottom: 50px;
-}
-.icons {
-    margin: 10px;
-    padding: 10px;
-}
-.contact-icons {
     display: flex;
     justify-content: center;
     padding-bottom: 70px;
+    
+    background: url(https://wallpaperaccess.com/full/487824.jpg) no-repeat 50% 50%;
+}
+.icons {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin: 20px;
+    padding: 20px;
 }
 .contact {
     text-align: center;
 }
 
-.bio {
-    padding-top: 200px;
+.languages {
+    padding-top: 400px;
     padding-left: 100px;
     padding-right: 100px;
-    font-size: 40px;
-    color: rgb(45, 46, 46);
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.bio {
+    color: rgb(46, 45, 45);
+    text-align: center;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.about {
     text-align: center;
 }

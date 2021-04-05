@@ -36,7 +36,7 @@ export default function Site() {
                     <a target="_blank">JavaScript Quiz</a>
                 </div> */}
             </div>
-            <hr className='hr'/>
+            {/* <hr className='hr'/> */}
         </div>
     )
 }

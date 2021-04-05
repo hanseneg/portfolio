@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Work() {
+export default function Contact() {
     return (
         <div className='work-icons'>
             <i className='icons' class="fab fa-linkedin fa-4x"></i>
