@@ -198,6 +198,32 @@ a:visited {
     margin-top: 70px;
     margin-bottom: 70px;
 }
+.nine {
+    grid-column: 1;
+    grid-row: 5;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 25px;
+}
+.ten {
+    grid-column: 2;
+    grid-row: 5;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.eleven {
+    grid-column: 1;
+    grid-row: 6;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 25px;
+}
+.twelve {
+    grid-column: 2;
+    grid-row: 6;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
 
 .hr { 
     display: block;
@@ -213,9 +239,8 @@ a:visited {
     text-align: center;
     display: flex;
     justify-content: center;
-    padding-bottom: 70px;
-    
-    background: url(https://wallpaperaccess.com/full/487824.jpg) no-repeat 50% 50%;
+    padding-top: 70px;
+    padding-bottom: 60px;
 }
 .icons {
     margin-top: 20px;
@@ -245,4 +270,12 @@ a:visited {
 }
 .about {
     text-align: center;
+}
+a {
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+}
+.about-bio {
+    margin: 50px;
+    margin-top: 0px;
 }

@@ -42,8 +42,8 @@ export default function Header() {
                     <div class="menu">
                         <ul>
                             <Link to='header' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" /* href="#" */>Home</a></li></Link>
-                            <Link to='about' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" /* href="#" */>About</a></li></Link>
-                            <Link to='site' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" /* href="#" */>Projects</a></li></Link>
+                            <Link to='about' spy={true} smooth={true} offset={-100} activeClass='active'><li><a class="hoverable" /* href="#" */>About</a></li></Link>
+                            <Link to='site' spy={true} smooth={true} offset={-100} activeClass='active'><li><a class="hoverable" /* href="#" */>Projects</a></li></Link>
                             <Link to='contact' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" /* href="#" */>Links</a></li></Link>
                             <Link to='contact' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" /* href="#" */>Contact</a></li></Link>
                         </ul>
