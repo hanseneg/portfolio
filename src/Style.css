@@ -60,12 +60,12 @@ nav ul {
 }
 
 nav.black ul {
-    background: #000;
+    background: rgb(46, 45, 45);
 }
 
 nav ul li {
     display: inline-block;
-    padding: 16px 40px;;
+    padding: 16px 40px;
 }
 
 nav ul li a {
@@ -77,7 +77,7 @@ nav ul li a {
 .menu-icon {
     line-height: 60px;
     width: 100%;
-    background: #000;
+    background: rgb(46, 45, 45);
     text-align: right;
     box-sizing: border-box;
     padding: 15px 24px;
@@ -114,11 +114,11 @@ a:visited {
 
     nav ul {
           max-height: 0px;
-          background: #000;
+          background: rgb(46, 45, 45);
     }
 
     nav.black ul {
-          background: #000;
+          background: rgb(46, 45, 45);
     }
 
     .showing {
@@ -146,83 +146,87 @@ a:visited {
     grid-auto-rows: minmax(100px, auto);
     text-align: center;
   }
+.wrapper div {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .one {
     grid-column: 1;
     grid-row: 1;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     font-size: 25px;
 }
 .two {
     grid-column: 2;
     grid-row: 1;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .three {
     grid-column: 1;
     grid-row: 2;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     font-size: 25px;
 }
 .four {
     grid-column: 2;
     grid-row: 2;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .five {
     grid-column: 1;
     grid-row: 3;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     font-size: 25px;
 }
 .six {
     grid-column: 2;
     grid-row: 3;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .seven {
     grid-column: 1;
     grid-row: 4;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     font-size: 25px;
 }
 .eight {
     grid-column: 2;
     grid-row: 4;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .nine {
     grid-column: 1;
     grid-row: 5;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     font-size: 25px;
 }
 .ten {
     grid-column: 2;
     grid-row: 5;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .eleven {
     grid-column: 1;
     grid-row: 6;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     font-size: 25px;
 }
 .twelve {
     grid-column: 2;
     grid-row: 6;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .hr { 
@@ -277,5 +281,5 @@ a {
 }
 .about-bio {
     margin: 50px;
-    margin-top: 0px;
+    margin-top: 50px;
 }

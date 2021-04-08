@@ -30,7 +30,7 @@ export default function Site() {
                     <a href="https://lh3.googleusercontent.com/qVVEwVgiELRcwTQnW0hJjEAJ79JXHYisV48hBn--tNX4WzKk9vJ5pKWJfT-FHok9RMvO-hCm5wP1GZAAl0bY6EqnbF1n_ECDMQZYkrxBeHrPHVfx-hJFTrI4oO6Q7JKKUpBnFbR7=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/qVVEwVgiELRcwTQnW0hJjEAJ79JXHYisV48hBn--tNX4WzKk9vJ5pKWJfT-FHok9RMvO-hCm5wP1GZAAl0bY6EqnbF1n_ECDMQZYkrxBeHrPHVfx-hJFTrI4oO6Q7JKKUpBnFbR7=w600-h315-p-k" /> </a>
                 </div>
                 <div className='nine'>
-                    <a href="google.com" target="_blank">Bounty Hunter</a>
+                    <a href="https://bounty-hunter-mando.herokuapp.com/" target="_blank">Bounty Hunter</a>
                 </div>
                 <div className='ten'>
                     <a href="https://lh3.googleusercontent.com/qhyF28JWVWWJRJZh0VDdILN7QTuGdyE5iRKuMhDS2tv0jBEo5_wp9bZ1ak-oDYGAigJgXLUxbVQ0YO07YMATICV1DuFMAhjIcpG2JJi7tXAClyykwRVHuD0dAhlm7-1JAvsHvctG=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/qhyF28JWVWWJRJZh0VDdILN7QTuGdyE5iRKuMhDS2tv0jBEo5_wp9bZ1ak-oDYGAigJgXLUxbVQ0YO07YMATICV1DuFMAhjIcpG2JJi7tXAClyykwRVHuD0dAhlm7-1JAvsHvctG=w600-h315-p-k" /> </a>
