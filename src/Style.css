@@ -104,7 +104,7 @@ a:visited {
     text-decoration: none;
 }
 
-@media(max-width: 786px) {
+@media only screen and (max-width: 870px) {
 
     .logo {
           position: fixed;
@@ -137,6 +137,7 @@ a:visited {
     }
 
 }
+
 
 
 .wrapper {
@@ -208,6 +209,60 @@ a:visited {
     grid-column: 2;
     grid-row: 6;
 }
+
+@media only screen and (max-width: 640px) {
+    
+    .one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .two {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .three {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .four {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .five {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    .six {
+        grid-column: 1;
+        grid-row: 6;
+    }
+    .seven {
+        grid-column: 1;
+        grid-row: 7;
+    }
+    .eight {
+        grid-column: 1;
+        grid-row: 8;
+    }
+    .nine {
+        grid-column: 1;
+        grid-row: 9;
+    }
+    .ten {
+        grid-column: 1;
+        grid-row: 10;
+    }
+    .eleven {
+        grid-column: 1;
+        grid-row: 11;
+    }
+    .twelve {
+        grid-column: 1;
+        grid-row: 12;
+    }
+}
+
+
 
 .hr { 
     display: block;
