@@ -150,83 +150,63 @@ a:visited {
     margin-left: 20px;
     margin-right: 20px;
 }
+.one, .three, .five, .seven, .nine, .eleven {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+.two, .four, .six, .eight, .ten, .twelve {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
 .one {
     grid-column: 1;
     grid-row: 1;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    font-size: 25px;
+    
 }
 .two {
     grid-column: 2;
     grid-row: 1;
-    margin-top: 60px;
-    margin-bottom: 60px;
 }
 .three {
     grid-column: 1;
     grid-row: 2;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    font-size: 25px;
 }
 .four {
     grid-column: 2;
     grid-row: 2;
-    margin-top: 60px;
-    margin-bottom: 60px;
 }
 .five {
     grid-column: 1;
     grid-row: 3;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    font-size: 25px;
 }
 .six {
     grid-column: 2;
     grid-row: 3;
-    margin-top: 60px;
-    margin-bottom: 60px;
 }
 .seven {
     grid-column: 1;
     grid-row: 4;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    font-size: 25px;
 }
 .eight {
     grid-column: 2;
     grid-row: 4;
-    margin-top: 60px;
-    margin-bottom: 60px;
 }
 .nine {
     grid-column: 1;
     grid-row: 5;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    font-size: 25px;
 }
 .ten {
     grid-column: 2;
     grid-row: 5;
-    margin-top: 60px;
-    margin-bottom: 60px;
 }
 .eleven {
     grid-column: 1;
     grid-row: 6;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    font-size: 25px;
 }
 .twelve {
     grid-column: 2;
     grid-row: 6;
-    margin-top: 60px;
-    margin-bottom: 60px;
 }
 
 .hr { 
@@ -239,19 +219,24 @@ a:visited {
     border-width: 1px;
 } 
 
+/* icons */
 .work-icons {
     text-align: center;
     display: flex;
     justify-content: center;
-    padding-top: 70px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgb(46, 45, 45);
+    color: #fff;
 }
 .icons {
     margin-top: 20px;
     padding-top: 20px;
     margin: 20px;
     padding: 20px;
+    color: #fff;
 }
+
 .contact {
     text-align: center;
 }
@@ -275,9 +260,13 @@ a:visited {
 .about {
     text-align: center;
 }
-a {
+.wrapper a {
     text-decoration: none;
     color: rgb(46, 45, 45);
+}
+.wrapper p {
+    font-size: 16px;
+    margin-left: 20px;
 }
 .about-bio {
     margin: 50px;
