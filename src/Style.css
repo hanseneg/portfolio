@@ -265,8 +265,8 @@ a:visited {
 
 @media only screen and (max-width: 480px) /* 480  */{
     .wrapper div {
-        margin-left: 25px;
-        margin-right: auto;
+        margin-left: 20px;
+        margin-right: 20px;
         text-align: center;
     }
     .work-icons a {
