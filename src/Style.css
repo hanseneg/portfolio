@@ -200,7 +200,12 @@ a:visited {
     grid-row: 6;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) /* 480  */{
+    .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
     .two img, .four img, .six img, .eight img, .ten img, .twelve img {
         width: 300px;
     }
