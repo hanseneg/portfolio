@@ -48,7 +48,6 @@ export default function Site() {
                     <a href="https://lh3.googleusercontent.com/ZBl1BPGcyIkBU8nHHDWGD1afJbGu-us8mGfCdY_hLwrZajbMFtiyJoKOcgtV4off1rAv4T1MJV8nyxF_zQs70-PprZy4x9_lxn9i-U8jt5GFRCajmtCM-Q96cVOm7X1p-EmthVbS=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/ZBl1BPGcyIkBU8nHHDWGD1afJbGu-us8mGfCdY_hLwrZajbMFtiyJoKOcgtV4off1rAv4T1MJV8nyxF_zQs70-PprZy4x9_lxn9i-U8jt5GFRCajmtCM-Q96cVOm7X1p-EmthVbS=w600-h315-p-k" /> </a>
                 </div> 
             </div>
-            {/* <hr className='hr'/>  */}
         </div>
     )
 }

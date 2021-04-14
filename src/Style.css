@@ -202,12 +202,18 @@ a:visited {
 
 @media only screen and (max-width: 480px) /* 480  */{
     .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .wrapper {
+        /* gap: 0px;
+        grid-auto-rows: minmax(10px, auto); */
         text-align: center;
-        margin-left: 20px;
-        margin-right: 0px;
+        align-content: center;
+        align-items: center;
     }
     .two img, .four img, .six img, .eight img, .ten img, .twelve img {
-        width: 300px;
+        width: 250px;
     }
     .one {
         grid-column: 1;
@@ -257,18 +263,23 @@ a:visited {
         grid-column: 1;
         grid-row: 12;
     }
+    .work-icons {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
 }
 
-
-.hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-} 
+@media only screen and (max-width: 767px) {
+    .work-icons {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .two img, .four img, .six img, .eight img, .ten img, .twelve img {
+        width: 400px;
+    }
+}
 
 /* icons */
 .work-icons {
