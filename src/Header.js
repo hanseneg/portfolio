@@ -50,7 +50,7 @@ export default function Header() {
                     </div>
                 </nav>
                 <div className='languages'>
-                    React &nbsp;&nbsp;&nbsp; Node.JS &nbsp;&nbsp;&nbsp; Express.JS &nbsp;&nbsp;&nbsp; Mongoose
+                    React Node.JS Express.JS Mongoose
                 </div>
             </header>
         </div>

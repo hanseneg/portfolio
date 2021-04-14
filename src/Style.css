@@ -200,14 +200,83 @@ a:visited {
     grid-row: 6;
 }
 
-@media only screen and (max-width: 480px) /* 480  */{
+
+/* icons */
+.work-icons {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgb(46, 45, 45);
+    color: #fff;
+}
+.icons {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin: 20px;
+    padding: 20px;
+    color: #fff;
+}
+
+.contact {
+    text-align: center;
+}
+
+.languages {
+    padding-top: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    word-spacing: 50px;
+}
+
+.bio {
+    color: rgb(46, 45, 45);
+    text-align: center;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.about {
+    text-align: center;
+}
+.wrapper a {
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+}
+.wrapper p {
+    font-size: 16px;
+    margin-left: 20px;
+}
+.about-bio {
+    margin: 50px;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .work-icons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+
+@media only screen and (max-width: 500px) /* 480  */{
+    .bio {
+        margin-left: -10px;
+        margin-right: -10px;
+        font-size: 16px;
+    }
     .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
+        align-content: center;
+        align-items: center;
     } 
     .wrapper {
-        /* gap: 0px;
-        grid-auto-rows: minmax(10px, auto); */
         text-align: center;
         align-content: center;
         align-items: center;
@@ -271,66 +340,7 @@ a:visited {
 }
 
 @media only screen and (max-width: 767px) {
-    .work-icons {
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-    }
     .two img, .four img, .six img, .eight img, .ten img, .twelve img {
         width: 400px;
     }
-}
-
-/* icons */
-.work-icons {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    background-color: rgb(46, 45, 45);
-    color: #fff;
-}
-.icons {
-    margin-top: 20px;
-    padding-top: 20px;
-    margin: 20px;
-    padding: 20px;
-    color: #fff;
-}
-
-.contact {
-    text-align: center;
-}
-
-.languages {
-    padding-top: 400px;
-    padding-left: 100px;
-    padding-right: 100px;
-    font-size: 50px;
-    color: #fff;
-    text-align: center;
-}
-
-.bio {
-    color: rgb(46, 45, 45);
-    text-align: center;
-    font-size: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.about {
-    text-align: center;
-}
-.wrapper a {
-    text-decoration: none;
-    color: rgb(46, 45, 45);
-}
-.wrapper p {
-    font-size: 16px;
-    margin-left: 20px;
-}
-.about-bio {
-    margin: 50px;
-    margin-top: 50px;
 }
