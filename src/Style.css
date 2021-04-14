@@ -263,7 +263,7 @@ a:visited {
     }
 } 
 
-@media only screen and (max-width: 500px) /* 480  */{
+@media only screen and (max-width: 480px) /* 480  */{
     .work-icons a {
         color: #fff;
     }
@@ -275,6 +275,7 @@ a:visited {
     .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
         margin-left: auto;
         margin-right: 10px;
+        padding-right: 20px;
         text-align: center;
         align-content: center;
         align-items: center;
