@@ -49,7 +49,7 @@ nav {
 nav ul {
     line-height: 60px;
     list-style: none;
-    background: rgba(0, 0, 0, 0);
+    background: rgb(46, 45, 45);
     overflow: hidden;
     color: #fff;
     padding: 0;
@@ -89,22 +89,28 @@ nav ul li a {
 li:hover, li:active, li:focus{
     transform: translateY(-2px);
     cursor: pointer;
-  }
-  li:hover:before, li:active:before, li:focus:before{
+}
+li:hover:before, li:active:before, li:focus:before{
     opacity: 1;
     transform: translateY(-2px);
     cursor: pointer;
-  }
+}
 
 a:link {
     text-decoration: none;
-    color: rgb(46, 45, 45);
+    color: #fff;
 }
 a:visited {
     text-decoration: none;
 }
 
 @media only screen and (max-width: 870px) {
+    /* .menu2 nav ul {
+        overflow: visible;
+    }
+    nav ul {
+        overflow: hidden;
+    } */
     .logo {
           position: fixed;
           top: 0;

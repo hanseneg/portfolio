@@ -23,7 +23,15 @@ export default function Header() {
         document.removeEventListener("scroll", listener)
       }
     }, [scrollState])
-  
+
+    
+    const [toggle, setToggle] = useState(false)
+
+    function toggleMenu(){
+        setToggle(prev => !prev)
+      } 
+
+    
 
     return (
         <div>
@@ -33,19 +41,38 @@ export default function Header() {
                     transition: 1.3,
                     position: "fixed"
                     }}>
-                    <div class="menu-icon">
-                        <i class="fa fa-bars fa-2x"></i>
-                    </div>
+                    { !toggle ? 
+                        <>
+                            <div class="menu-icon">
+                                <i onClick={toggleMenu} class="fa fa-bars fa-2x"></i>
+                            </div>
+                        </>
+                    :
+                        <>
+                            <div class="menu-icon2">
+                                <i onClick={toggleMenu} class="fa fa-bars fa-2x"></i>
+                            </div>
+                            <div class="menu2">
+                                <ul>
+                                    <Link to='header' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" >Home</a></li></Link>
+                                    <Link to='about' spy={true} smooth={true} offset={-120} activeClass='active'><li><a class="hoverable" >About</a></li></Link>
+                                    <Link to='site' spy={true} smooth={true} offset={-120} activeClass='active'><li><a class="hoverable" >Projects</a></li></Link>
+                                    <Link to='contact' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" >Links</a></li></Link>
+                                    <Link to='contact' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" >Contact</a></li></Link>
+                                </ul>
+                            </div>
+                        </>
+                    }
                     <div class="logo">
                         ETHAN HANSEN
                     </div>
                     <div class="menu">
                         <ul>
-                            <Link to='header' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" /* href="#" */>Home</a></li></Link>
-                            <Link to='about' spy={true} smooth={true} offset={-120} activeClass='active'><li><a class="hoverable" /* href="#" */>About</a></li></Link>
-                            <Link to='site' spy={true} smooth={true} offset={-120} activeClass='active'><li><a class="hoverable" /* href="#" */>Projects</a></li></Link>
-                            <Link to='contact' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" /* href="#" */>Links</a></li></Link>
-                            <Link to='contact' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" /* href="#" */>Contact</a></li></Link>
+                            <Link to='header' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" >Home</a></li></Link>
+                            <Link to='about' spy={true} smooth={true} offset={-120} activeClass='active'><li><a class="hoverable" >About</a></li></Link>
+                            <Link to='site' spy={true} smooth={true} offset={-120} activeClass='active'><li><a class="hoverable" >Projects</a></li></Link>
+                            <Link to='contact' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" >Links</a></li></Link>
+                            <Link to='contact' spy={true} smooth={true} activeClass='active'><li><a class="hoverable" >Contact</a></li></Link>
                         </ul>
                     </div>
                 </nav>
