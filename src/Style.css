@@ -64,7 +64,7 @@ nav.black ul {
 }
 
 nav ul li {
-    display: inline-block;
+    /* display: inline-block; */
     padding: 16px 40px;
 }
 
@@ -105,13 +105,27 @@ a:visited {
 }
 
 @media only screen and (max-width: 870px) {
+    nav ul li {
+        /* display: none; */
+        line-height: 10px;
+        padding-right: 0px;
+        
+
+    
+    }
+    .menu-icon {
+        display: block;
+        padding: 10px 40px 10px 0px;
+    }
+
+   
     /* .menu2 nav ul {
         overflow: visible;
     }
     nav ul {
         overflow: hidden;
     } */
-    .logo {
+    /* .logo {
           position: fixed;
           top: 0;
           margin-top: 16px;
@@ -134,7 +148,7 @@ a:visited {
     }
     .menu-icon {
           display: block;
-    }
+    } */
 }
 
 .wrapper {
