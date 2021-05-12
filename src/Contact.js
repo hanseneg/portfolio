@@ -5,14 +5,14 @@ export default function Contact() {
         <div className='work-icons'>
 
             
-                <i className='icons' class="fab fa-linkedin fa-4x"></i>
-                <a className='icons' href='https://www.linkedin.com/in/ethan-hansen-869332181/'>LinkedIn</a>
+                <a target="_blank" href='https://www.linkedin.com/in/ethan-g-hansen/'><i className='icons' class="fab fa-linkedin fa-4x"></i></a>
+                <a className='icons' target="_blank" href='https://www.linkedin.com/in/ethan-g-hansen/'>LinkedIn</a>
             
-                <i className='icons' class="fab fa-github fa-4x"></i>
-                <a className='icons' href='https://github.com/hanseneg'>Github</a>
+                <a target="_blank" href='https://github.com/hanseneg'><i className='icons' target="_blank" class="fab fa-github fa-4x"></i></a>
+                <a className='icons' target="_blank" href='https://github.com/hanseneg'>Github</a>
             
-                <i className='icons' class="far fa-file-alt fa-4x"></i>
-                <a className='icons' href='https://docs.google.com/document/d/1GT4J6YbtbXTvmqeKYb9eubVyZ5KF4Ft4U4_AMoYHAxc/edit?usp=sharing'>Resume</a>
+                <a target="_blank" href='https://docs.google.com/document/d/115EVziko5RCjsEuTFM9EDfT2x6bwnGX4TprM-OrwsUs/edit#'><i className='icons' target="_blank" class="far fa-file-alt fa-4x"></i></a>
+                <a className='icons' target="_blank" href='https://docs.google.com/document/d/115EVziko5RCjsEuTFM9EDfT2x6bwnGX4TprM-OrwsUs/edit#'>Resume</a>
             
                 <i className='icons'  class="fas fa-phone-square fa-4x"></i>
                 <p className='icons'>208-650-2331</p>

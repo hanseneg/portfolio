@@ -2,6 +2,10 @@ import React, { useEffect, useState} from 'react'
 import { Link } from 'react-scroll'
 
 
+//fix header scroll on/off
+//create a hover for links thats subtle but cool
+
+
 export default function Header() {
     let listener = null
     const [scrollState, setScrollState] = useState("top")
@@ -57,7 +61,7 @@ export default function Header() {
                             <Link to='header' spy={true} smooth={true} activeClass='active'><li className='link1' style={{display}}><a class="hoverable" >Home</a></li></Link>
                             <Link to='about' spy={true} smooth={true} offset={-300} activeClass='active'><li className='link1' style={{display}}><a class="hoverable" >About</a></li></Link>
                             <Link to='site' spy={true} smooth={true} offset={-300} activeClass='active'><li className='link1' style={{display}}><a class="hoverable" >Projects</a></li></Link>
-                            <Link to='contact' spy={true} smooth={true} offset={-290} activeClass='active'><li className='link1' style={{display}}><a class="hoverable" >Links</a></li></Link>
+                            {/* <Link to='contact' spy={true} smooth={true} offset={-290} activeClass='active'><li className='link1' style={{display}}><a class="hoverable" >Links</a></li></Link> */}
                             <Link to='contact' spy={true} smooth={true} offset={-290} activeClass='active'><li className='link1' style={{display}}><a class="hoverable" >Contact</a></li></Link>
                         </ul>
                     </div>
@@ -66,7 +70,7 @@ export default function Header() {
                             <Link to='header' spy={true} smooth={true} activeClass='active'><li className='link2'><a class="hoverable" >Home</a></li></Link>
                             <Link to='about' spy={true} smooth={true} offset={-120} activeClass='active'><li className='link2'><a class="hoverable" >About</a></li></Link>
                             <Link to='site' spy={true} smooth={true} offset={-120} activeClass='active'><li className='link2'><a class="hoverable" >Projects</a></li></Link>
-                            <Link to='contact' spy={true} smooth={true} activeClass='active'><li className='link2'><a class="hoverable" >Links</a></li></Link>
+                            {/* <Link to='contact' spy={true} smooth={true} activeClass='active'><li className='link2'><a class="hoverable" >Links</a></li></Link> */}
                             <Link to='contact' spy={true} smooth={true} activeClass='active'><li className='link2'><a class="hoverable" >Contact</a></li></Link>
                         </ul>
                     </div> 

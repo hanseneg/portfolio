@@ -273,6 +273,10 @@ a:visited {
     margin-top: 50px;
 }
 
+.work-icons a {
+    color: #fff;
+}
+
 @media only screen and (max-width: 1024px) {
     .work-icons {
         display: flex;
